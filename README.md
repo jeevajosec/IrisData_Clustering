@@ -1,14 +1,13 @@
 # Hierarchical Clustering on Iris Dataset
-Overview
+Overview:
 This repository contains the code for performing Hierarchical Clustering on the famous Iris dataset using Python. Hierarchical Clustering is an unsupervised machine learning technique used to group similar data points based on their features. The goal of this project is to explore the effectiveness of Hierarchical Clustering on the Iris dataset and to visualize the clusters.
 
-Dataset
+Dataset:
 Iris Dataset from sklearn library.
 Features include sepal length, sepal width, petal length, and petal width of Iris flowers.
 The target column "species" is removed, as this is a clustering problem.
 
 Load and Preprocess Data:
-
 Load the Iris dataset from sklearn.
 Drop the "species" column since this is a clustering task.
 
@@ -24,7 +23,7 @@ Visualization:
 Visualize clusters using scatter plots for 2D data, or PCA/t-SNE for high-dimensional data.
 Optionally, visualize the dendrogram to see the hierarchical structure.
 
-Workflow
+Workflow:
 Load the Data: Use the Iris dataset from sklearn and preprocess it by removing the "species" column.
 
 Hierarchical Clustering:
@@ -40,11 +39,11 @@ Plot clusters in a 2D space with scatter plots or apply dimensionality reduction
 Determine Optimal Number of Clusters:
 Find the highest silhouette score, cut the dendrogram at the appropriate level, and visualize clusters.
 
-Results
+Results:
 The silhouette score for Hierarchical Clustering provides a measure of how well-defined the clusters are.
 Optimal number of clusters can be determined by examining the silhouette score plots and comparing different numbers of clusters.
 
-Results Visualization
+Results Visualization:
 Silhouette Scores Plot: Displays the variation in silhouette scores for different cluster numbers.
 
 Scatter Plot: Shows the data points colored by their assigned cluster label.
