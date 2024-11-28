@@ -26,19 +26,27 @@ Optionally, visualize the dendrogram to see the hierarchical structure.
 
 Workflow
 Load the Data: Use the Iris dataset from sklearn and preprocess it by removing the "species" column.
+
 Hierarchical Clustering:
 Generate a linkage matrix using the linkage() function from scipy.cluster.hierarchy.
 Assign cluster labels based on a specified number of clusters using the fcluster() function.
+
 Evaluate Clustering Quality:
 Compute silhouette scores and visualize cluster quality metrics.
+
 Visualize Clusters:
 Plot clusters in a 2D space with scatter plots or apply dimensionality reduction techniques (PCA, t-SNE).
+
 Determine Optimal Number of Clusters:
 Find the highest silhouette score, cut the dendrogram at the appropriate level, and visualize clusters.
+
 Results
 The silhouette score for Hierarchical Clustering provides a measure of how well-defined the clusters are.
 Optimal number of clusters can be determined by examining the silhouette score plots and comparing different numbers of clusters.
+
 Results Visualization
 Silhouette Scores Plot: Displays the variation in silhouette scores for different cluster numbers.
+
 Scatter Plot: Shows the data points colored by their assigned cluster label.
+
 Dendrogram: Visualizes the hierarchical clustering tree to help determine the number of clusters.
